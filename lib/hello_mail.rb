@@ -1,0 +1,3 @@
+module HelloMail
+  # Your code goes here...
+end
