@@ -6,11 +6,14 @@ Gem::Specification.new do |s|
   s.name        = "hello_mail"
   s.version     = HelloMail::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["David Padilla"]
+  s.email       = ["david@crowdint.com"]
   s.homepage    = "http://rubygems.org/gems/hello_mail"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Add a rake task to test your mail configuration on Rails 3}
+  s.description = %q{Add a rake task to test your mail configuration on Rails 3}
+
+  s.add_dependency('actionmailer', '~>3.0.0')
+  s.add_development_dependency('shoulda', '~>2.11.3')
 
   s.rubyforge_project = "hello_mail"
 
