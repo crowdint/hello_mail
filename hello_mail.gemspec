@@ -12,8 +12,10 @@ Gem::Specification.new do |s|
   s.summary     = %q{Add a rake task to test your mail configuration on Rails 3}
   s.description = %q{Add a rake task to test your mail configuration on Rails 3}
 
-  s.add_dependency('actionmailer', '~>3.0.0')
+  #s.add_dependency('actionmailer', '~>3.0.0')
+  s.add_dependency('rails', '~>3.0.0')
   s.add_development_dependency('shoulda', '~>2.11.3')
+  s.add_development_dependency('rake')
 
   s.rubyforge_project = "hello_mail"
 
